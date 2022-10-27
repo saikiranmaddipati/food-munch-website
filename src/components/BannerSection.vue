@@ -28,7 +28,7 @@ export default {
 .bg-container {
   background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
 }
 .banner-heading {
   color: white;
