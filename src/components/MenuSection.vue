@@ -8,7 +8,7 @@
             <div class="menu-item-card">
               <img
                 src="https://www.weddingbellcaterer.com/wp-content/uploads/2020/05/Weddingbell-Caterer-Menu-Veg-Starter.jpg"
-                class="menu-item-image"
+                class="menu-item-image" @click="vegStarterItems()"
               />
               <h1 class="menu-card-title">Veg Starters</h1>
               <a href="" class="menu-item-link">
@@ -20,7 +20,7 @@
             <div class="menu-item-card">
               <img
                 src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png"
-                class="menu-item-image"
+                class="menu-item-image" @click="vegStarterItems()"
               />
               <h1 class="menu-card-title">Non-Veg Starters</h1>
               <a href="" class="menu-item-link">
@@ -32,7 +32,7 @@
             <div class="menu-item-card">
               <img
                 src="https://image.winudf.com/v2/image/Y29tLnl0b2ZmbGluZWJpcnlhbmlfc2NyZWVuXzE1XzE1MTU4ODY4MjNfMDEz/screen-15.jpg?fakeurl=1&type=.jpg"
-                class="menu-item-image"
+                class="menu-item-image" @click="menuItems()"
               />
               <h1 class="menu-card-title">Non-Veg Biryani</h1>
               <a href="" class="menu-item-link">
@@ -62,6 +62,9 @@ export default {
   methods: {
     menuItems () {
       this.$router.push('/menuitems')
+    },
+    vegStarterItems () {
+      this.$router.push('/vegstarteritems')
     }
   }
 }
