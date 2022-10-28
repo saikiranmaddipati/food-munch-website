@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="menu-section q-pa-lg">
+    <div class="menu-section q-pa-xl">
       <div class="row">
         <div class="col-12">
           <h1 class="menu-section-heading">Menu</h1>
@@ -81,8 +81,8 @@ export default {
 }
 .menu-item-image {
   border-radius: 16px;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 .menu-card-title {
   color: #323f4b;

@@ -43,7 +43,7 @@ export default {
 
 <style>
 .bg-image{
-    background-image: url('https://th.bing.com/th/id/OIP.7iD-TDY26RsEwb-NQAjSkAHaE8?pid=ImgDet&rs=1');
+    background-image: url('https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe.jpg');
     background-size: cover;
     height: 50vh;
     border-radius: 16px;
